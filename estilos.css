@@ -1,0 +1,46 @@
+header h1 {
+    background-color: chocolate;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+nav {
+    background-color: green;
+    height: 10%;
+    float: left;
+    height: 600px;
+    width: 10%;
+}
+
+article {
+    max-width: 75%;
+    height: 75%;
+    height: 600px;
+    background-color: cadetblue;
+    margin-right: 26%;
+    margin-left: 11%;
+}
+
+article p {
+    font-size: 20px;
+}
+
+aside {
+    justify-content: flex-end;
+    background-color: cyan;
+    height: 600px;
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: coral;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}

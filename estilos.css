@@ -1,5 +1,5 @@
 header h1 {
-    background-color: rgb(253, 189, 93);
+    background-color: #a0d995;
     justify-content: center;
     color: aliceblue;
     text-align: center;
@@ -7,20 +7,24 @@ header h1 {
 
 nav {
     border-radius: 1.5%;
-    background-color: rgb(152, 223, 207);
+    background-color:#a3ffac;
     height: 10%;
     float: left;
     height: 600px;
     width: 10%;
 }
 
+section {
+    display: flex;
+}
+
 article {
     max-width: 75%;
     height: 75%;
     height: 600px;
-    background-color: rgb(130, 203, 236);
-    margin-right: 26%;
-    margin-left: 11%;
+    background-color: rgb(242, 245, 240);
+     margin-right: 1.5%;
+    margin-left: 1.5%; 
 }
 
 article p {
@@ -29,19 +33,19 @@ article p {
 
 aside {
     justify-content: flex-end;
-    background-color: cyan;
+    background-color: #b0f2c2;
     height: 600px;
     float: right;
     width: 25%;
 }
 
 footer {
-    background-color: coral;
+    background-color: #8cfca4;
     text-align: center;
     margin-top: 10px;
 }
 
-section aside{
+section aside {
     justify-content: flex-end;
 }
 
